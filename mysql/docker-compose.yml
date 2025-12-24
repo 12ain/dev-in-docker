@@ -2,7 +2,7 @@ version: "3"
 
 services:
   mysql:
-    image: mysql
+    image: mysql:8.0
     container_name: mysql
     command:
       # MySQL8的密码验证方式默认是 caching_sha2_password，但是很多的连接工具还不支持该方式
